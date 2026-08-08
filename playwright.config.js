@@ -35,7 +35,7 @@ module.exports = defineConfig({
           // reqres.in has required an x-api-key on /api/* since its 2025 relaunch.
           // "reqres-free-v1" is the documented public demo key - no signup needed.
           // Override with your own key via REQRES_API_KEY if it ever gets rate limited.
-          'x-api-key': process.env.REQRES_API_KEY || 'reqres-free-v1',
+          'x-api-key': process.env.REQRES_API_KEY || 'free_user_3HdqiK0EkciZvSuW7UfBXGAAwbS',
         },
       },
     },

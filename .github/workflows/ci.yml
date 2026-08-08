@@ -13,7 +13,11 @@ jobs:
     timeout-minutes: 20
 
     env:
+<<<<<<< HEAD
+      REQRES_API_KEY: ${{ secrets.REQRES_API_KEY || 'free_user_3HdqiK0EkciZvSuW7UfBXGAAwbS' }}
+=======
       REQRES_API_KEY: ${{ secrets.REQRES_API_KEY || 'free_user_3HdqXY07nD86ABoCGpUsr9GXNcg' }}
+>>>>>>> 53b00b58432e7eab7c975d5038e81b90c3ba4f41
 
     steps:
       - name: Checkout repository
