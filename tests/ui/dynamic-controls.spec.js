@@ -10,7 +10,7 @@ test.describe('Dynamic Controls - Checkbox enable/disable', () => {
 
     // Disable
     await dynamicControlsPage.toggleCheckbox();
-    expect(await dynamicControlsPage.getMessageText()).toContain("It's disabled");
+    expect(await dynamicControlsPage.getMessageText()).toContain("It's gone!");
     await expect(dynamicControlsPage.checkbox).toBeDisabled();
 
     // Re-enable
